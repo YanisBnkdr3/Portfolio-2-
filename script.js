@@ -7,9 +7,7 @@ document.querySelectorAll('nav a[href^="#"]').forEach((anchor) => {
   });
 });
 
-// Formulaire simulé (sans backend)
-
-// Animation d'apparition au scroll
+// Animation au scroll
 const revealElements = document.querySelectorAll(".reveal");
 window.addEventListener("scroll", () => {
   revealElements.forEach((el) => {
